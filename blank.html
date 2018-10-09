@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>告警测试页</title>
+<!-- BOOTSTRAP STYLES-->
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<!-- FONTAWESOME STYLES-->
+<link href="assets/css/font-awesome.css" rel="stylesheet" />
+<!-- CUSTOM STYLES-->
+<link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+  
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="adjust-nav">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" /> </a> </div>
+      <span class="logout-spn" > <a href="#" style="color:#fff;">蕾洛制冷设备监控</a> </span> </div>
+  </div>
+  <!-- /. NAV TOP  -->
+  <nav class="navbar-default navbar-side" role="navigation">
+    <div class="sidebar-collapse">
+      <ul class="nav" id="main-menu">
+        <li > <a href="index.html" ><i class="fa fa-desktop "></i>主页 <span class="badge">Included</span></a> </li>
+        <li> <a href="dashboard.php"><i class="fa fa-table "></i>用户管理页<span class="badge">访问</span></a> </li>
+        <li class="active-link"> <a href="blank.html"><i class="fa fa-edit "></i>告警测试页<span class="badge">访问</span></a> </li>
+        <li> <a href="login.html"><i class="fa fa-edit "></i>登录<span class="badge">访问</span></a> </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- /. NAV SIDE  -->
+  <div id="page-wrapper" >
+    <div id="page-inner" style="padding-left: 40px">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>告警测试页 </h2>
+          <!--<input type="text" id="chan" placeholder="节点ID" value="100030304009"/>
+          <button onClick="startMiniChart()">显示</button>-->
+        </div>
+      </div>
+      <div class="row" id="equip-btns">
+	  </div>
+	  <div class="row" style="margin-top: 10px;">
+			<div class="col-md-6">
+				<div class="col-md-4">类型： </div>
+				<div class="col-md-8">
+					<div class="btn-group" data-toggle="buttons">
+					  <label class="btn btn-primary" onClick="setType(2)">
+						<input type="radio" id="sl_type_2" name="sl_typ" value="2" autocomplete="off" checked> 超时报警
+					  </label><!--
+					  <label class="btn btn-primary" onClick="setType(3)">
+						<input type="radio" id="sl_type_3" name="sl_typ" value="3" autocomplete="off" > 小时统计报警
+					  </label>
+					  <label class="btn btn-primary" onClick="setType(4)">
+						<input type="radio" id="sl_type_4" name="sl_typ" value="4" autocomplete="off" > 按天统计报警
+					  </label>
+					  
+					  <label class="btn btn-primary" onClick="setType(7)">
+						<input type="radio" id="sl_type_7" name="sl_typ" value="7" autocomplete="off" > 按天统计报警
+					  </label>
+					  <label class="btn btn-primary" onClick="setType(8)">
+						<input type="radio" id="sl_type_7" name="sl_typ" value="8" autocomplete="off" > 按天统计报警
+					  </label>
+					  -->
+					</div>
+					<select id="sl_type" style="display:none">
+						<option value="1">1 1s超时报警</option>	
+						<option value="2" selected="selected">2 超时报警</option>
+						<option value="3">3 小时统计报警</option>
+						<option value="4">4 按天统计报警</option>
+						<option value="7">7 设备小时掉线报警</option>
+						<option value="8">8 设备全天掉线报警</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="col-md-4">错误代码(请咨询)： </div><div class="col-md-8"><input type="number"  value="310001" id="sl_echo" placeholder=""/></div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+		
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-md-4">正常范围最大值：</div>
+				<div class="col-md-8">
+				   <input type="number" id="sl_max" placeholder="XX.YY°C 请输入XXYY"/>
+				</div>
+			</div>
+			
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-md-4">正常范围最小值：</div>
+				<div class="col-md-8"><input type="number" id="sl_min" placeholder="XX.YY°C 请输入XXYY"/></div>
+			</div>
+			
+		</div>
+		<br>
+		<!--
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-md-4">浮动上限(不含) : </div><div class="col-md-8"><input type="number" id="sl_top" placeholder=" 100倍（类型3/4）"/> <br></div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-md-4">浮动上限(不含) : </div><div class="col-md-8"><input type="number" id="sl_bottom" placeholder="浮动下限（类型3/4）"/> <br></div>
+			</div>
+		</div>-->
+		
+		<div class="row">
+		   <div class="col-md-6">
+			   <div class="col-md-4">超时时间(秒) ： </div><div class="col-md-8"><input type="number" id="sl_period" value="30"/></div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+		   	   <a href="#" class="btn btn-info" onClick="syth_proto_string('@')">合成</a>
+			   <a href="#" class="btn btn-warning" onClick="getTestproto()">测试</a>
+			   <a href="#" class="btn btn-primary" onClick="doProto()">确认应用</a>
+			   <a href="#" class="btn btn-success" onClick="getNow()">获取现有规则</a>
+			</div>
+		</div>
+		<hr />
+		<div class="row">
+			<textarea style="width:100%;height:auto" id="dispArea"></textarea>
+		</div>
+		 <br>
+      <!-- /. ROW  -->
+      <hr />
+      <!-- /. MODAL  --> 
+    </div>
+    <!-- /. PAGE INNER  -->     
+    <div class="modal fade" id="modChart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onClick="closeChart()">
+						&times;
+					</button>
+					<h4 class="modal-title" id="modChartTitle"></h4>
+				</div>
+					<div class="modal-body" id="hcontainer">
+					</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal" onClick="closeChart()">关闭
+					</button>
+					<!--button type="button" class="btn btn-primary">确定</button-->
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+	
+  </div>
+  <!-- /. PAGE WRAPPER  --> 
+</div>
+<div class="footer">
+  <div class="row">
+    <div class="col-lg-12" >&copy; 蕾洛制冷设备监控 | Poweredby Xyouwork | 2017 <!--Radnor 广东蕾洛 s| 数据服务 : <a href="http://xyouwork.com" style="">百由工场</a>--></div>
+  </div>
+</div>
+
+<!-- /. WRAPPER  --> 
+<!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME--> 
+<!-- JQUERY SCRIPTS --> 
+<script src="assets/js/jquery-1.10.2.js"></script>
+<!-- BOOTSTRAP SCRIPTS -->  
+<script src="assets/js/bootstrap.min.js"></script> 
+<!-- CUSTOM SCRIPTS --> 
+<script src="assets/js/custom.js"></script> 
+<script src="js/highcharts.js"></script> 
+<script src="js/range.js"></script> 
+<script src="js/solidg.js" ></script> 
+<script src="js/testpanel.js"></script> 
+<script src="js/hopts.js"></script>
+</body>
+</html>

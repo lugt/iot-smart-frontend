@@ -1,0 +1,7 @@
+20170905-104035---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"pass","value":"123","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170905-104054---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"pass","value":"123","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170905-104130---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"pass","value":"123","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170905-104135---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"priv","value":"goto,view,cluster,notify,newreg","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170905-104148---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"priv","value":"goto,cluster,notify,newreg","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170905-104155---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"priv","value":"goto,view,cluster,notify,newreg","triomphe":"ba3tt6k39886d5o9fkg7bcv5n2"}
+20170906-093705---1---goto,view,cluster,notify,admin,newreg---{"uid":"2","name":"pass","value":"333","triomphe":"t5bfk2g0pfmb5gv8087md6ak86"}

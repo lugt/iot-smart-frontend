@@ -1,0 +1,366 @@
+1504672999----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504672999----undefined,无法访问节点 报警信息  POINT5%33: 0
+1504672999----undefined,无法访问节点 报警信息  POINT5%33: 1
+1504672999----undefined,无法访问节点 报警信息  POINT5%33: 2
+1504673000----undefined,无法访问节点 报警信息  POINT5%33: 4
+1504673000----undefined,无法访问节点 报警信息  POINT5%33: 6
+1504673000----undefined,无法访问节点 报警信息  POINT5%33: 3
+1504673001----undefined,无法访问节点 报警信息  POINT5%33: 7
+1504673001----undefined,无法访问节点 报警信息  POINT5%33: 5
+1504673005----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673005----undefined,无法访问节点 报警信息  POINT5%33: 1
+1504673005----undefined,无法访问节点 报警信息  POINT5%33: 0
+1504673005----undefined,无法访问节点 报警信息  POINT5%33: 2
+1504673006----undefined,无法访问节点 报警信息  POINT5%33: 4
+1504673006----undefined,无法访问节点 报警信息  POINT5%33: 3
+1504673006----undefined,无法访问节点 报警信息  POINT5%33: 6
+1504673007----undefined,无法访问节点 报警信息  POINT5%33: 7
+1504673007----undefined,无法访问节点 报警信息  POINT5%33: 5
+1504673048----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673048----undefined,无法访问节点 报警信息  POINT5%33: 0
+1504673048----undefined,无法访问节点 报警信息  POINT5%33: 1
+1504673048----undefined,无法访问节点 报警信息  POINT5%33: 2
+1504673049----undefined,无法访问节点 报警信息  POINT5%33: 6
+1504673049----undefined,无法访问节点 报警信息  POINT5%33: 4
+1504673049----undefined,无法访问节点 报警信息  POINT5%33: 3
+1504673050----undefined,无法访问节点 报警信息  POINT5%33: 7
+1504673050----undefined,无法访问节点 报警信息  POINT5%33: 5
+1504673152----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673153----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673165----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673177----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504673184----startIp|<span> Oooops! Maximum execution timed out.</span>,无法连接数据服务
+1504806420----ready|fail-0,数据服务-不在线
+1504806749----undefined,出现异常-31 某个数据区域暂无数据
+1504806763----undefined,出现异常-31 某个数据区域暂无数据
+1504806765----undefined,出现异常-31 某个数据区域暂无数据
+1504806768----undefined,出现异常-31 某个数据区域暂无数据
+1504806770----undefined,出现异常-31 某个数据区域暂无数据
+1504807303----undefined,出现异常-31 某个数据区域暂无数据
+1504807335----undefined,出现异常-31 某个数据区域暂无数据
+1504807338----undefined,出现异常-31 某个数据区域暂无数据
+1504807341----undefined,出现异常-31 某个数据区域暂无数据
+1504807356----undefined,出现异常-31 某个数据区域暂无数据
+1504807357----undefined,出现异常-31 某个数据区域暂无数据
+1504807358----undefined,出现异常-31 某个数据区域暂无数据
+1504807359----undefined,出现异常-31 某个数据区域暂无数据
+1504807359----undefined,出现异常-31 某个数据区域暂无数据
+1504807359----undefined,出现异常-31 某个数据区域暂无数据
+1504807360----undefined,出现异常-31 某个数据区域暂无数据
+1504807360----undefined,出现异常-31 某个数据区域暂无数据
+1504807360----undefined,出现异常-31 某个数据区域暂无数据
+1504807361----undefined,出现异常-31 某个数据区域暂无数据
+1504807361----undefined,出现异常-31 某个数据区域暂无数据
+1504807365----undefined,出现异常-31 某个数据区域暂无数据
+1504807368----undefined,出现异常-31 某个数据区域暂无数据
+1504811310----ready|fail-0,数据服务-不在线
+1504811483----ready|fail-0,数据服务-不在线
+1504811487----ready|fail-0,数据服务-不在线
+1504811691----undefined,无法连接节点-1000303010004010
+1504811691----undefined,该时间区域内没有数据
+1504844552----<span> Oooops! Maximum execution timed out.</span>,返回结果：<br><span> Oooops! Maximum execution timed out.</span>
+1504844557----<span> Oooops! Maximum execution timed out.</span>,返回结果：<br><span> Oooops! Maximum execution timed out.</span>
+1504844632----<span> Oooops! Maximum execution timed out.</span>,返回结果：<br><span> Oooops! Maximum execution timed out.</span>
+1504844668----DL,fail,For input string: "100030304011",返回结果：<br>DL,fail,For input string: "100030304011"
+1504844834----DL,fail,ErrorProto,返回结果：<br>DL,fail,ErrorProto
+1504844974----DL,fail,paramNum,返回结果：<br>DL,fail,paramNum
+1504845009----DL,fail,paramNum,返回结果：<br>DL,fail,paramNum
+1504845320----DL,fail,ZeroData,返回结果：<br>DL,fail,ZeroData
+1504845338----DL,fail,ZeroData,返回结果：<br>DL,fail,ZeroData
+1504846511----CA,fail,setting,返回结果：<br>CA,fail,setting
+1504846550----CA,fail,setting,返回结果：<br>CA,fail,setting
+1504849141----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849148----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849208----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849212----welcome|ERR_MRCE1|SyntaxError: Unexpected token E,获取登陆信息异常
+1504849275----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849278----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849596----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849645----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849648----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849684----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849688----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849700----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849704----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849709----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849746----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849749----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849761----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849763----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849768----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849855----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849857----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849865----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849882----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849885----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849937----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+
+1504849956----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504849970----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850082----get_user_info|{},请登录后重试
+1504850095----get_user_info|{},请登录后重试
+1504850105----get_user_info|{},请登录后重试
+1504850113----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850239----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850292----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850306----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850332----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850439----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850447----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850487----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504850585----clust|SyntaxError: Unexpected token '
+{'msg':'cls'},没有查询到机组
+SyntaxError: Unexpected token '
+{'msg':'cls'}
+1504855277----undefined,该时间区域内没有数据
+1504860625----undefined,该时间区域内没有数据
+1504861258----undefined,该时间区域内没有数据
+1504862236----ready|fail-0,数据服务-不在线
+1504862236----ready|fail-0,数据服务-不在线
+1504862269----ready|fail-0,数据服务-不在线
+1504862270----ready|fail-0,数据服务-不在线
+1504862271----ready|fail-0,数据服务-不在线
+1504862272----ready|fail-0,数据服务-不在线
+1504862272----ready|fail-0,数据服务-不在线
+1504862273----ready|fail-0,数据服务-不在线
+1504862278----ready|fail-0,数据服务-不在线
+1504862279----ready|fail-0,数据服务-不在线
+1504862279----ready|fail-0,数据服务-不在线
+1504862280----ready|fail-0,数据服务-不在线
+1504862297----ready|fail-0,数据服务-不在线
+1504862298----ready|fail-0,数据服务-不在线
+1504862298----ready|fail-0,数据服务-不在线
+1504862299----ready|fail-0,数据服务-不在线
+1504862299----ready|fail-0,数据服务-不在线
+1504862299----ready|fail-0,数据服务-不在线
+1504862299----ready|fail-0,数据服务-不在线
+1504862300----ready|fail-0,数据服务-不在线
+1504862307----ready|fail-0,数据服务-不在线
+1504862372----ready|fail-0,数据服务-不在线
+1504862372----ready|fail-0,数据服务-不在线
+1504862502----DL,fail,For input string: "",返回结果：<br>DL,fail,For input string: ""
+1505144028----gac_parse|DL,fail,exp,java.lang.NullPointerException,错误18: 与数据服务链接断开
+1505144028----gac_parse|DL,fail,exp,java.lang.NullPointerException,错误18: 与数据服务链接断开
+1505144028----gac_parse|DL,fail,exp,java.lang.NullPointerException,错误18: 与数据服务链接断开
+1505144028----gac_parse|DL,fail,exp,java.lang.NullPointerException,错误18: 与数据服务链接断开
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 1
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 3
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 2
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 0
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 5
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 4
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 6
+1505144037----undefined,无法访问节点 报警信息  POINT5%33: 7
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 2
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 1
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 0
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 3
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 6
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 4
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 5
+1505144674----undefined,无法访问节点 报警信息  POINT5%33: 7
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 2
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 1
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 0
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 6
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 4
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 3
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 7
+1505144676----undefined,无法访问节点 报警信息  POINT5%33: 5
+1505144680----undefined,无法访问节点 报警信息  POINT5%33: 2
+1505144680----undefined,无法访问节点 报警信息  POINT5%33: 0
+1505144680----undefined,无法访问节点 报警信息  POINT5%33: 3
+1505144680----undefined,无法访问节点 报警信息  POINT5%33: 6
+1505144680----undefined,无法访问节点 报警信息  POINT5%33: 5
+1505144681----undefined,无法访问节点 报警信息  POINT5%33: 7
+1505144681----undefined,无法访问节点 报警信息  POINT5%33: 1
+1505144681----undefined,无法访问节点 报警信息  POINT5%33: 4
+1507615003----undefined,无法连接节点-100040000001
+1507615003----undefined,无法连接节点-100030304009
+1507615003----undefined,无法连接节点-100040200001
+1507615003----undefined,无法连接节点-100040100001
+1507615003----undefined,该时间区域内没有数据
+1507615004----undefined,该时间区域内没有数据
+1507615004----undefined,该时间区域内没有数据
+1507615004----undefined,该时间区域内没有数据
+1507615007----undefined,无法连接节点-100040100001
+1507615007----undefined,无法连接节点-100040000001
+1507615007----undefined,无法连接节点-100040200001
+1507615007----undefined,无法连接节点-100030304009
+1507615007----undefined,该时间区域内没有数据
+1507615007----undefined,该时间区域内没有数据
+1507615007----undefined,该时间区域内没有数据
+1507615007----undefined,该时间区域内没有数据
+1507615168----undefined,该时间区域内没有数据
+1507615168----undefined,该时间区域内没有数据
+1507615168----undefined,该时间区域内没有数据
+1507615168----undefined,该时间区域内没有数据
+1507615175----undefined,该时间区域内没有数据
+1507615175----undefined,该时间区域内没有数据
+1507615175----undefined,该时间区域内没有数据
+1507615175----undefined,该时间区域内没有数据
+1507615181----undefined,该时间区域内没有数据
+1507615181----undefined,该时间区域内没有数据
+1507615181----undefined,该时间区域内没有数据
+1507615181----undefined,该时间区域内没有数据
+1507615185----undefined,出现异常-31 某个数据区域暂无数据
+1507615185----undefined,出现异常-31 某个数据区域暂无数据
+1507615185----undefined,出现异常-31 某个数据区域暂无数据
+1507615185----undefined,出现异常-31 某个数据区域暂无数据
+1507622391----undefined,该时间区域内没有数据
+1507622391----undefined,该时间区域内没有数据
+1507622391----undefined,该时间区域内没有数据
+1507622391----undefined,该时间区域内没有数据
+1507622398----undefined,该时间区域内没有数据
+1507622398----undefined,该时间区域内没有数据
+1507622398----undefined,该时间区域内没有数据
+1507622398----undefined,该时间区域内没有数据
+1507622400----undefined,出现异常-31 某个数据区域暂无数据
+1507622400----undefined,出现异常-31 某个数据区域暂无数据
+1507622400----undefined,出现异常-31 某个数据区域暂无数据
+1507622400----undefined,出现异常-31 某个数据区域暂无数据
+1507622437----undefined,无法访问节点 报警信息  POINT5%33: 2
+1507622437----undefined,无法访问节点 报警信息  POINT5%33: 1
+1507622437----undefined,无法访问节点 报警信息  POINT5%33: 0
+1507622600----undefined,该时间区域内没有数据
+1507622600----undefined,该时间区域内没有数据
+1507622600----undefined,该时间区域内没有数据
+1507622600----undefined,该时间区域内没有数据
+1507622638----undefined,无法访问节点 报警信息  POINT5%33: 0
+1507622638----undefined,无法访问节点 报警信息  POINT5%33: 1
+1507623036----undefined,该时间区域内没有数据
+1507625143----undefined,无法访问节点 报警信息  POINT5%33: 1
+1507625143----undefined,无法访问节点 报警信息  POINT5%33: 2
+1507625143----undefined,无法访问节点 报警信息  POINT5%33: 0
+1507625740----undefined,该时间区域内没有数据
+1507625742----undefined,该时间区域内没有数据
+1507625747----undefined,出现异常-31 某个数据区域暂无数据
+1507625747----undefined,出现异常-31 某个数据区域暂无数据
+1507625747----undefined,出现异常-31 某个数据区域暂无数据
+1507625747----undefined,出现异常-31 某个数据区域暂无数据
+1507632759----undefined,出现异常-31 某个数据区域暂无数据
+1507632759----undefined,出现异常-31 某个数据区域暂无数据
+1507632759----undefined,出现异常-31 某个数据区域暂无数据
+1507632759----undefined,出现异常-31 某个数据区域暂无数据
+1508247729----ready|fail-0,数据服务-不在线
+1508247917----undefined,该时间区域内没有数据
+1508247917----undefined,该时间区域内没有数据
+1508247917----undefined,该时间区域内没有数据
+1508247917----undefined,该时间区域内没有数据
+1508248110----undefined,无法访问节点 报警信息  POINT5%33: 1
+1508248110----undefined,无法访问节点 报警信息  POINT5%33: 0
+1508248110----undefined,无法访问节点 报警信息  POINT5%33: 2
+1508248211----undefined,无法访问节点 报警信息  POINT5%33: 1
+1508248211----undefined,无法访问节点 报警信息  POINT5%33: 0
+1508248211----undefined,无法访问节点 报警信息  POINT5%33: 2
+1508248246----undefined,该时间区域内没有数据
+1508248246----undefined,该时间区域内没有数据
+1508248246----undefined,该时间区域内没有数据
+1508248246----undefined,该时间区域内没有数据
+1508291090----ready|fail-0,数据服务-不在线
+1527523325----undefined,该时间区域内没有数据
+1527523325----undefined,该时间区域内没有数据
+1527523325----undefined,该时间区域内没有数据
+1527523325----undefined,该时间区域内没有数据
+1527523347----undefined,该时间区域内没有数据
+1527523355----undefined,该时间区域内没有数据
+1527523355----undefined,该时间区域内没有数据
+1527523355----undefined,该时间区域内没有数据
+1527523355----undefined,该时间区域内没有数据
+1527523620----undefined,该时间区域内没有数据
+1527523620----undefined,该时间区域内没有数据
+1527523620----undefined,该时间区域内没有数据
+1527523620----undefined,该时间区域内没有数据
+1527523655----undefined,该时间区域内没有数据
+1527523655----undefined,该时间区域内没有数据
+1527523655----undefined,该时间区域内没有数据
+1527523655----undefined,该时间区域内没有数据
+1527523659----undefined,该时间区域内没有数据
+1527523659----undefined,该时间区域内没有数据
+1527523659----undefined,该时间区域内没有数据
+1527523659----undefined,该时间区域内没有数据
+1527523670----undefined,该时间区域内没有数据
+1527523670----undefined,该时间区域内没有数据
+1527523670----undefined,该时间区域内没有数据
+1527523670----undefined,该时间区域内没有数据
+1527523673----undefined,该时间区域内没有数据
+1527523673----undefined,该时间区域内没有数据
+1527523673----undefined,该时间区域内没有数据
+1527523673----undefined,该时间区域内没有数据

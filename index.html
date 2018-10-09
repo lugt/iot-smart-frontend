@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>数据监控 | 蕾洛制冷设备监控 </title>
+<!-- BOOTSTRAP STYLES-->
+<link href="assets/css/bootstrap.css" rel="stylesheet" />
+<!-- FONTAWESOME STYLES-->
+<link href="assets/css/font-awesome.css" rel="stylesheet" />
+<!-- CUSTOM STYLES-->
+<link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="adjust-nav">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" > <img src="assets/img/logo.png" /> </a> </div>
+    <span class="logout-spn" ><!--登陆信息 | <a  style="color:#fff;">登出</a>-->蕾洛制冷设备监控 </span></div>
+</div>
+<!-- /. NAV TOP  -->
+<nav class="navbar-default navbar-side" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav" id="main-menu">
+      <li> <a href="index.html" ><i class="fa fa-desktop "></i>制冷设备监控 <span class="badge">新消息</span></a> </li>
+      <li> <a href="dashboard.php"><i class="fa fa-table "></i>用户管理页<span class="badge">Included</span></a> </li>
+      <li> <a href="blank.html"><i class="fa fa-edit "></i>测试报警页 <span class="badge">Included</span></a> </li>
+      <li class="active-link"> <a href="login.html"><i class="fa fa-edit "></i>登录<span class="badge">访问</span></a> </li>
+    </ul>
+    
+    <ul class="nav" id="main-menu2" style="height:300px">
+      <li>
+       <center>
+        <div id="left-bot" height="300"></div>
+	  </center>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- /. NAV SIDE  -->
+<div id="page-wrapper" style="max-width: 1024px;background: #ffffff">
+  <div id="page-inner" style="background: #fff">
+    <!-- /. ROW  -->
+    <div class="row" style="display:none;">
+      <div class="col-lg-12">
+		  <div class="alert alert-info" id="msg-area">正在加载，请稍候</div>
+      </div>
+    </div>
+    <ul id="myTab" class="nav nav-tabs">
+		<li class="active">
+			<a href="#listp" data-toggle="tab">
+				 设备列表
+			</a>
+		</li>
+		<li><a href="#large" data-toggle="tab">历史数据</a></li>
+		<li><a href="#ios" data-toggle="tab">实时数据</a></li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade in active"id="listp">
+			<ul class="list-group" id="equip-list">
+			</ul>
+		</div>
+		<div class="tab-pane fade" id="large">
+			<div class="row">
+			 <div class="panel panel-info">
+			 <div class="panel-heading">
+			   <ul style="margin-bottom:0px;">
+				<li class="dropdown">时间长度：
+						<a class="dropdown-toggle btn btn-default" data-toggle="dropdown" id="drop-timet">
+							24小时 &nbsp; <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#" onClick="changeTick(3)">1小时</a>
+							</li>
+							<li>
+								<a href="#" onClick="changeTick(36)">12小时</a>
+							</li>
+							<li>
+								<a href="#" onClick="changeTick(72)">24小时</a>
+							</li>
+							<li>
+								<a  href="#" onClick="changeTick(216)">72小时</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#" onClick="changeTick(3600)">30天</a>
+							</li>
+							<li>
+								<a href="#" onClick="changeTick(86400)">全年</a>
+							</li>
+						</ul>
+					</li>
+			  </ul>
+			</div>
+			</div>
+		</div>
+			<div class="row text-center pad-top" id="row-s0"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s1"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s2"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s3"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s4"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s5"> 
+			</div>
+			<div class="row text-center pad-top" id="row-s6"> 
+			</div>
+		</div>
+		<div class="tab-pane fade" id="ios">
+			<div class="row text-center pad-top" id="row-0"> 
+			</div>
+			<!-- /. ROW  -->
+			<div class="row text-center pad-top" id="row-1"> 
+			</div>
+			<div class="row text-center pad-top" id="row-2"> 
+			</div>
+			<div class="row text-center pad-top" id="row-3"> 
+			</div>
+		</div>
+	</div>
+    <!-- /. ROW  -->
+        
+	<!-- 模态框（Modal） -->
+	<div class="modal fade" id="modChart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onClick="closeChart()">
+						&times;
+					</button>
+					<h4 class="modal-title" id="modChartTitle"></h4>
+				</div>
+					<div class="modal-body" id="hcontainer">
+					</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal" onClick="closeChart()">关闭
+					</button>
+					<!--button type="button" class="btn btn-primary">确定</button-->
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+    <!-- /. PAGE INNER  --> 
+  </div>
+  <!-- /. PAGE WRAPPER  --> 
+</div>
+<div class="footer">
+  <div class="row">
+	  <div class="col-lg-12" >&copy; 蕾洛制冷设备监控 | Powered by Xyouwork | 2017 <!--Radnor 广东蕾洛 s| 数据服务 : <a href="http://xyouwork.com" style="">百由工场</a>--></div>
+  </div>
+</div>
+
+<!-- /. WRAPPER  --> 
+<!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME--> 
+<!-- JQUERY SCRIPTS --> 
+<script src="assets/js/jquery-1.10.2.js"></script> 
+<!-- BOOTSTRAP SCRIPTS --> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<!-- CUSTOM SCRIPTS --> 
+<script src="assets/js/custom.js"></script> 
+<script src="js/highcharts.js"></script> 
+<script src="js/range.js"></script> 
+<script src="js/solidg.js" ></script> 
+<script src="js/mainpnmobile.js"></script>
+<script src="js/mainpanel.js"></script>
+<script src="js/hopts.js"></script>
+
+<script>
+	add_div_equip();
+</script>
+</body>
+</html>
